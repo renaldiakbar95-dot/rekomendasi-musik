@@ -10,18 +10,20 @@
     
     <style>
         :root {
-            --primary-color: #3498db;
-            --dark-bg: #2c3e50;
-            --input-bg: #34495e;
-            --text-light: #ecf0f1;
-            --hover-color: #2980b9;
+            --primary-color: #3b82f6;
+            --dark-bg: #0f172a;
+            --input-bg: #1e293b;
+            --text-light: #f8fafc;
+            --hover-color: #2563eb;
+            --bg-color: #0b0f19;
+            --text-color: #cbd5e1;
         }
 
         body { 
             font-family: 'Poppins', sans-serif; 
-            background: #f4f7f6; 
+            background: var(--bg-color); 
             margin: 0; 
-            color: #333;
+            color: var(--text-color);
         }
 
         .navbar { 
